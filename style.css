@@ -14,10 +14,17 @@ h1, h2, h3, h4, h5, h6 {
   color: #161616;
 }
 
+.website-title {
+  color: white;
+  text-shadow: 2px 2px 2px gray;
+  font-size: 30px;
+}
+
 .header-main {
   position: fixed;
   width: 100%;
   background: lightgray;
+  z-index: 2;
 }
 
 .header-nav {
@@ -25,6 +32,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 65%;
   right: 0;
   top: 20px;
+  text-align: justify;
 }
 
 .content-main {
@@ -41,20 +49,30 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   top: 80px;
   width: 200px;
-  height: 500px;
-  background: lightblue;
+  height: 520px;
+  background: lightgray;
+}
+
+.aside-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.page-title {
+  margin-top: 50px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .article-index-one {
   height: 300px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   overflow: auto;
 }
 
 .article-index-two {
   height: 300px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   overflow: auto;
 }
 
