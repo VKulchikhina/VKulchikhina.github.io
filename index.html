@@ -9,8 +9,10 @@
   </head>
   <body>
     <!-- здесь будет тело документа -->
+    <div class="header-grid">
+
     <header class="header-main">
-      <h1 class="website-title">Cinema Store</h1>
+      <h1 class="website-title title-animation">Cinema Store</h1>
       <nav class="header-nav">
         <a class="index-hover" href="index.html">Главная</a>
         <a class="index-hover" href="contacts.html">Контакты</a>
@@ -20,10 +22,14 @@
       </nav>
     </header>
 
+  </div>
+
     <main class="content-main">
+
+    <div class="content-grid">
       <section class="section-main">
         <h2 class="page-title">Последние новости</h2>
-        <article class="article-index-one">
+        <article id="article-1" class="article-index-one">
           <div class="flex-element-article1-1">
           <h3>Интервью с художником-постановщиком «Звездных войн» Роджером Кристианом</h3>
           <p><i>Художник-постановщик «Звездных войн» Роджер Кристиан создал и легендарный «Тысячелетний сокол», и всеми любимый дизайн световых мечей. В интервью КиноПоиску Кристиан не только поделился своими мыслями о продолжении саги Джорджа Лукаса, но и рассказал о том, как протекала работа над первыми частями культовой франшизы.</i></p>
@@ -74,11 +80,20 @@
           <p><i>Новый фильм Гильермо дель Торо собрал немало хвалебных рецензий и уже значится в списках самых ожидаемых картин года. В чем секрет новой «страшной сказки» от маэстро рассказывает Мария Ремига.</i></p>
           <a class="hover-link" href="http://cinemaholics.ru/shape-of-water/" target="_blank">Читать полную рецензию на Cinemaholics</a><br>
           <p>60-е, Балтимор. Немая женщина по имени Элиза работает уборщицей на секретном военно-исследовательском объекте, а в свободное время пытается как-то побороть свое одиночество. Она водит дружбу с приятной коллегой, геем-иллюстратором-неудачником, но все это, конечно, не совсем то. «То» появляется в ее жизни, когда военные привозят на объект невозможно красивое чудовище, которое как и Элиза не может говорить, зато прекрасно умеет слушать.</p>
+
+          <div onclick="alert('Ура! Клик был!')">Кликни по мне!</div>
+
+          <div id="show-me">Покажи мне еще один алерт!</div>
+
+          <div id="event-listener">Наш третий элемент для события</div>
+
         </div>
         </article>
 
       </section>
+    </div>
 
+    <div class="aside-grid">
       <aside class="aside-main">
         <h2 class="aside-title">Скоро в кино</h2>
 
@@ -91,13 +106,21 @@
         <br><img src="img/play-circle.svg" alt="" height="12"> «Джуманджи»<br>
         <i>(28 декабря)</i>
       </aside>
+    </div>
     </main>
 
+  <div class="footer-grid">
     <footer class="footer">
       <p>Cinema Store в социальных сетях:
       <a class="index-hover" href="#">Facebook</a> и <a class="index-hover" href="#">Twitter</a></p>
 
       <p>© 2017 Cinema Store • <a class="index-hover" href="tel:+79686343457">Позвонить создателю сайта</a> •  <a class="index-hover" href="mailto:valery.viktorovna@gmail.com">Связаться по электронной почте</a></p>
     </footer>
+  </div>
+
+
+
+    <script src="script.js"></script>
+
   </body>
 </html>
